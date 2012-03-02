@@ -1,0 +1,21 @@
+{
+  "author": "Mihai Tomescu <matomesc@gmail.com> (https://github.com/matomesc)",
+  "name": "awskit",
+  "description": "node.js client for working with aws",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matomesc/awskit",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matomesc/awskit.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha -R spec"
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
