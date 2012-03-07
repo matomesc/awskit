@@ -1,9 +1,9 @@
 var should = require('should');
-var awskit = require('../');
+var products = require('../').ProductAdvertising;
 
-var api = new awskit.ProductAdvertising({ key: 'testKey', tag: 'testTag', https: true });
+var api = new products.Client({ key: 'testKey', tag: 'testTag', https: true });
 
-describe('awskit.ProductAdvertising', function () {
+describe('products.Client', function () {
   describe('#constructor()', function () {
     it('should return an object', function () {
       api.should.be.a('object');
